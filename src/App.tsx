@@ -4,10 +4,12 @@ import "./App.css";
 import { useState } from "react";
 import { text } from "stream/consumers";
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import Quizscreen from "./pages/Quiz";
+import BARButton from "./Components/Button";
+import Firstinp from "./Components/Input";
+import APIhandel from "./pages/ApihandleScreen";
 function App() {  return (
     <div>
-      <Quizscreen />
+    <APIhandel />
     </div>
     
   );
